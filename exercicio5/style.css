@@ -1,0 +1,32 @@
+ body{
+    color: #3b3b3b;
+    background-color: #f9c9ff;
+ }
+
+#foto{
+    width: 150px;
+    border-radius: 10px ;
+    border-top: 5px double red ;
+    border-bottom: 3px solid blue ;
+    border-right: 7px dotted fuchsia ;
+    border-left: 10px d;
+}
+
+ /*
+ cores originais
+ texto #3b3b3b
+ fundo #f9c9ff
+
+ cor dia
+ texto #1b1b1b
+ fundo #b4edff
+ 
+ cor tarde
+ texto #585858;
+ fundo #f77f30
+
+ cor noite
+ texto #fff7f7
+ fundo #283147
+ 
+ */
