@@ -1,6 +1,8 @@
 let dataAtual = new Data ()
 console.log(dataAtual.getDay())
+
 let diaDaSemana = dataAtual.getDay()
+
 // if(diaDaSemana ==0){
 //     document.getElementById("resposta").innerText = "Domingo"
 // } else if (diaDasemana == 1){
@@ -16,6 +18,7 @@ let diaDaSemana = dataAtual.getDay()
 // }else if (diaDaSemana == 6){
 //     docuument.getElementById("respostas").innerText = "Sabado-feira"
 // }
+
 switch (diaDaSemana) {
     case 0:
          document.getElementById("resposta").innerText = "Domingo"
@@ -38,6 +41,7 @@ switch (diaDaSemana) {
      case 6:
          document.getElementById("resposta").innerText = "Sabado"
          break
+
     default:
         break;
 }
